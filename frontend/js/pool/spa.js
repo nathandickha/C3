@@ -9,7 +9,7 @@ const SPA_WALL_THICKNESS = 0.2;
 // Snap logic:
 // - If SPA_TOP_OFFSET <= 0.05 → spa ON wall (no extra offset)
 // - If SPA_TOP_OFFSET > 0.05  → spa offset 0.35m outward
-const SNAP_HEIGHT_THRESHOLD = 0.05; // 50mm
+const SNAP_HEIGHT_THRESHOLD = 0.00; // 50mm
 const SNAP_OFFSET_RAISED = 0.35;    // 350mm
 const SPA_CENTER_SNAP_THRESHOLD = 0.35; // 350mm along-wall snap tolerance
 const SPA_WALL_CENTER_SNAP_THRESHOLD = 0.35; // 350mm normal-to-wall tolerance
